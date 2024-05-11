@@ -17,6 +17,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
         android:text="Add Task"
+        android:textStyle="bold"
         android:textColor="@color/green"
         android:textSize="24sp" />
 
@@ -32,7 +33,7 @@
         android:id="@+id/titleEditText"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="Enter the Title"
+        android:hint="Enter the Task"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@id/AddTaskHeding"
@@ -44,14 +45,14 @@
 
     <EditText
         android:id="@+id/contentEditText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/titleEditText"
         android:layout_marginTop="13dp"
         android:background="@drawable/green_border"
         android:fontFamily="@font/poppins"
         android:gravity="top"
-        android:hint="Enter the Description"
+        android:hint="Priority"
         android:padding="12dp"
         android:textSize="18sp"
 
