@@ -16,6 +16,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
         android:text="TASKS"
+        android:textStyle="bold"
         android:layout_marginStart="18dp"
         android:textColor="@color/green"
         android:textSize="24sp"
@@ -26,8 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:padding="16dp"
-        />
+        android:padding="16dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addButton"
