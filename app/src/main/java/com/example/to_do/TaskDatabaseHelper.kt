@@ -46,7 +46,7 @@ class TaskDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_
     fun getAllTasks(): List<Task> {
         val taskList = mutableListOf<Task>()
         val db = readableDatabase
-        val query = "SELECT * FROM $TABLE_NAME"
+        val query = "SELECT * FROM $TABLE_NAME ORDER BY $COLUMN_DATETIME ASC"
         val cursor = db.rawQuery(query, null)
 
         while (cursor.moveToNext()) {
