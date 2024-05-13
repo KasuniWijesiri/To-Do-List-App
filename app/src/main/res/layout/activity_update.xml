@@ -22,10 +22,12 @@
 
     <ImageView
         android:id="@+id/updateSaveButton"
-        android:layout_width="55dp"
-        android:layout_height="42dp"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
         android:layout_alignTop="@id/editTaskHeding"
         android:layout_alignParentEnd="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-17dp"
         android:src="@drawable/done" />
 
     <EditText
